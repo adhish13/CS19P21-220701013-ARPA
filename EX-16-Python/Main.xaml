@@ -108,7 +108,7 @@
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <p:LoadScript Code="{x:Null}" Result="{x:Null}" DisplayName="Load Python Script" sap:VirtualizedContainerService.HintSize="433.6,92" sap2010:WorkflowViewState.IdRef="LoadScript_1" ScriptFile="C:\Users\bhanu\OneDrive\Desktop\Mutiply.py" />
+            <p:LoadScript Code="{x:Null}" Result="{x:Null}" DisplayName="Load Python Script" sap:VirtualizedContainerService.HintSize="433.6,92" sap2010:WorkflowViewState.IdRef="LoadScript_1" ScriptFile="C:\Users\User\OneDrive\Desktop\Mutiply.py" />
             <p:InvokeMethod Parameters="{x:Null}" DisplayName="Invoke Python Method" sap:VirtualizedContainerService.HintSize="433.6,122.4" sap2010:WorkflowViewState.IdRef="InvokeMethod_1" Name="multiply" Result="[invokemultiply]" />
             <p:GetObject x:TypeArguments="x:Object" DisplayName="Get Python Object" sap:VirtualizedContainerService.HintSize="433.6,122.4" sap2010:WorkflowViewState.IdRef="GetObject`1_1" PythonObject="[invokemultiply]" Result="[resMul]" />
             <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="433.6,108.8" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[resMul]" />
@@ -117,4 +117,5 @@
       </p:PythonScope.Body>
     </p:PythonScope>
   </Sequence>
+
 </Activity>
